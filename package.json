@@ -1,0 +1,17 @@
+{
+  "name": "react-intro-v5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "repository": "git@github.com:cwkosman/react-intro-v5.git",
+  "author": "Chuck Kosman <cwkosman@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "prettier": "^1.18.2"
+  }
+}
