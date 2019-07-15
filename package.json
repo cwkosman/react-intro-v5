@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "clear-build-cache": "rm -rf .cache/ dist/",
     "dev": "parcel src/index.html",
+    "dev:mock": "cross-env PET_MOCK=mock yarn run dev",
     "format": "prettier \"src/**/*.{js,html}\" --write",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "dev:mock": "cross-env PET_MOCK=mock yarn run dev"
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "repository": "git@github.com:cwkosman/react-intro-v5.git",
   "author": "Chuck Kosman <cwkosman@gmail.com>",
